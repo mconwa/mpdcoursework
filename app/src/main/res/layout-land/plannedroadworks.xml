@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="mpdproject.gcu.me.org.assignmenttest1.activity_plannedRoadworks">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity = "center">
+
+        <TextView
+            android:id="@+id/pText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Planned Road Works"
+            android:gravity = "center"
+            />
+        <Button
+            android:id="@+id/getPlannedButton"
+            android:layout_width="200sp"
+            android:layout_height="wrap_content"
+            android:text="Get Planned Roadworks"
+            />
+        <TextView
+            android:id="@+id/pOutput"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            />
+    </LinearLayout>
+</ScrollView>
